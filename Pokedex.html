@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--LINKS-->
     <link rel="stylesheet" href="CSS/pokedex.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+
+
+    <!--Script-->
+    <script defer src="Java Script/pokeAPI.js"></script>
+
     <title>Pokémon - Projedex JS</title>
 </head>
 
@@ -17,27 +23,30 @@
 
         <div>
             <h1 class="pokemon__data">
-                <span class="pokemom__number">6</span> - 
-                <span class="pokemon__name">charizard</span>
+                <span class="pokemom__number"></span> - 
+                <span class="pokemon__name"></span>
             </h1>
 
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
+            <img src="#"
             alt="pokemon" class="pokemon__image">
 
-            <img src="Imagens/Pokedex.png" alt="pokedex" class="pokedex">
+            <img src="Imagens/pokedex final.png" alt="pokedex" class="pokedex">
 
             <div class="buttons">
                 <button class="button btn-prev">Prev &lt;</button>
                 <button class="button btn-next">Next &gt;</button>
             </div>
 
-            <form>
+            <form class="form">
                 <input type="search"
                 class="input__search"
-                placeholder="Name or Number"
+                placeholder="Nome ou Número"
                 required
                 />
             </form>
+
+            <audio src="#" class="pokemon__cry"></audio>
+
         </div>
         
     </main>

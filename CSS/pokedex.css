@@ -33,7 +33,7 @@ main{
 .pokemon__image{
     position: absolute;
     bottom: 55%;
-    left: 50%;
+    left: 48.5%;
     transform: translate(-60%, 90%);
     height: 14%;
 }
@@ -44,7 +44,7 @@ main{
     font-size: 150%;
     color: aliceblue;
     top: 33%;
-    left: 40%;
+    left: 33%;
 }
 
 .pokemon__name{
@@ -55,7 +55,7 @@ form{
     position: absolute;
     width: 65%;
     bottom: 12%;
-    left: 13.5%;
+    left: 13.8%;
 }
 
 .input__search{
